@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>A fantastical adventure</title>
+</head>
+<body>
+  <h1>Fill in the blanks to write your story!</h1>
+  <form>
+    <!-- Form Structure: 
+      <form id="some-form">
+        <label for="some-input">Your input:</label>
+        <input id="some-input" type="text" name="<same-as-for>">
+
+        <button type="submit">Submit!</button>
+      </form>
+     -->
+    <label for="person1Input">A name</label>
+    <input id="person1Input" type="text" name="person1Input">
+    <label for="person2Input">Another name</label>
+    <input id="person2Input" type="text" name="person2Input">
+    <label for="animalInput">An animal</label>
+    <input id="animalInput" type="text" name="animalInput">
+    <label for="exclamationInput">An exclamation</label>
+    <input id="exclamationInput" type="text" name="exclamationInput">
+    <label for="verbInput">A past tense verb</label>
+    <input id="verbInput" type="text" name="verbInput">
+    <label for="nounInput">A noun</label>
+    <input id="nounInput" type="text" name="nounInput">
+    <button type="submit">Show me the story!</button>
+  </form>
+
+  <div id="story" class="hidden">
+    <h1>A Fantastical Adventure</h1>
+    <p>
+      One day, <span id="person1a">_________</span> and <span id="person2a">_________</span> were walking through the woods, when suddenly a giant <span id="animal">_________</span> appeared. "<span id="exclamation">_________</span>", <span id="person1b">_________</span> cried. The two of them <span id="verb">_________</span> as quickly possible, and when they were safe, <span id="person1c">_________</span> and <span id="person2b">_________</span> gave each other a giant <span id="noun">_________</span>.
+    </p>
+  </div>
+</body>
+</html>
